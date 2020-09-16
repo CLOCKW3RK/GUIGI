@@ -11,7 +11,7 @@ An exe version will be built sooner or later, after the code(s) for UNI-ICO, and
 The exe will be built using BAT2EXE. Digital MD5 and SHA-1 sigs will be posted on this README when this occurs.
 
 CREDIT TO PAVLOV'S WALRUS FOR GOOIGI PICTURE: https://www.deviantart.com/pavlovs-walrus/art/Gooigi-Alternate-Costume-Transparent-789257626
-I do not own Gooigi (obviously). I named it this because it started for a switch emulator (Yuzu) and evolved from there.
-Kinda like Gooiboi did from Weeg. 
+
+I do not own Gooigi (obviously). I named it this because it started for a switch emulator (Yuzu) and evolved from there. Kinda like Gooiboi did from Weeg. 
 
 
