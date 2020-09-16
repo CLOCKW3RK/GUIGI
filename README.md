@@ -1,7 +1,7 @@
 # GUIGI - UNI-GUI
 Test GUI for UNI-ICO from coded from VBS. (and soon Tkinter!) Codename: "GUIGI"
 * INSTRUCTIONS FOR USE
-1. Place UNI-GUI and GUIGI-PRIMARY(Launch Me First!).bat in the UNI-ICO Directory
+1. Place UNI-GUI.bat and GUIGI-PRIMARY(Launch Me First!).bat in the UNI-ICO Directory
 2. Do NOT rename anything (obviously). It'll fuck stuff up.
 3. Run UNI-GUI.vbs that was just created. 
 
