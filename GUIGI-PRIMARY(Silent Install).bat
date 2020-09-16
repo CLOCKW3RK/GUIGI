@@ -4,6 +4,7 @@ color 02
 goto stage1
 
 :stage1
+echo Silently creating GUIGI.py
 echo import subprocess>> GUIGI.py
 echo Quellpfad = r"%cd%">> GUIGI.py
 echo Quelldatei = r"\UNI-GUI.bat">> GUIGI.py
