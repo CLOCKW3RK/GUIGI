@@ -1,7 +1,10 @@
 @echo off
 cd %cd%
+cd "%~dp0"
 color 02
+goto start
 
+:start
 echo Starting...
 echo Option Explicit>> UNI-GUI.vbs
 echo Dim ws,Question,PathProgram>> UNI-GUI.vbs
@@ -21,7 +24,23 @@ echo End Function>> UNI-GUI.vbs
 echo '****************************>> UNI-GUI.vbs
 move UNI-GUI.vbs "%cd%"
 
-echo Boot prep finished. Press any key to Launch UNI-GUI. Press ALT+F4 to not Launch UNI-GUI.
-pause
+echo Boot prep finished. Create Shortcut on Desktop?
+CHOICE /C 12 /T 3 /D 1 /M "Will make shortcut automatically in 3 sec... (YES=1/NO=2)"
+IF %ERRORLEVEL%==1 GOTO short
+IF %ERRORLEVEL%==2 GOTO noshort
+
+:short
+start shortcut.bat
+
+
+:noshort
+CHOICE /C 12 /T 3 /D 1 /M "Launch UNI-GUI? Auto-yes in 3 sec... (YES=1/NO=2)"
+IF %ERRORLEVEL%==1 GOTO launch
+IF %ERRORLEVEL%==2 GOTO exit
+
+:launch
 start UNI-GUI.vbs
+goto exit
+
+:exit
 exit
