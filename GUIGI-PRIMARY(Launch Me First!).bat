@@ -23,5 +23,5 @@ cls
 echo Starting stage 2 in 2 seconds...
 timeout /t 2 >nobreak
 del nobreak.*
-start GUIGI-TEST.py
+start GUIGI.py
 exit
