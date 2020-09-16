@@ -7,7 +7,9 @@ Test GUI for UNI-ICO from coded from VBS. (and soon Tkinter!) Codename: "GUIGI"
 
 
 * NOTES
+
 An exe version will be built sooner or later, after the code(s) for UNI-ICO, and the icon makers are perfected.
+
 The exe will be built using BAT2EXE. Digital MD5 and SHA-1 sigs will be posted on this README when this occurs.
 
 CREDIT TO PAVLOV'S WALRUS FOR GOOIGI PICTURE: https://www.deviantart.com/pavlovs-walrus/art/Gooigi-Alternate-Costume-Transparent-789257626
