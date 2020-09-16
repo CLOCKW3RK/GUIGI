@@ -8,14 +8,10 @@ A test GUI for UNI-ICO from coded from Batch/VBS. (and soon Tkinter!) Codename: 
 
 * NOTES
 
-This is for WINDOWS 10 ONLY. Yes, it may work on earlier versions of Win x86/x64, but I do not officially support it.
-
-An exe version will be built sooner or later, after the code(s) for UNI-ICO, and the icon makers are perfected.
-
-The exe will be built using BAT2EXE. Digital MD5 and SHA-1 sigs will be posted on this README when this occurs.
-
-CREDIT TO PAVLOV'S WALRUS FOR GOOIGI PICTURE: https://www.deviantart.com/pavlovs-walrus/art/Gooigi-Alternate-Costume-Transparent-789257626
-
-I do not own Gooigi (obviously). I named it this because it started for a switch emulator (Yuzu) and evolved from there. Kinda like Gooiboi did from Weeg. 
+1. This is for WINDOWS 10 ONLY. Yes, it may work on earlier versions of Win x86/x64, but I do not officially support it.
+2. An exe version will be built sooner or later, after the code(s) for UNI-ICO, and the icon makers are perfected.
+3. The exe will be built using BAT2EXE. Digital MD5 and SHA-1 sigs will be posted on this README when this occurs.
+4. CREDIT TO PAVLOV'S WALRUS FOR GOOIGI PICTURE: https://www.deviantart.com/pavlovs-walrus/art/Gooigi-Alternate-Costume-Transparent-789257626
+5. I do not own Gooigi (obviously). I named it this because it started for a switch emulator (Yuzu) and evolved from there. Kinda like Gooiboi did from Weeg. 
 
 
