@@ -77,7 +77,7 @@ echo rpcs3 = Button(rightFrame, text="RPCS3", fg="turquoise4", command=rpcs3gene
 echo tekno = Button(leftFrame, text="TEKNOPARROT", fg="red", command=teknogenerator)>> GUIGI.py
 echo yuzu = Button(rightFrame, text="YUZU", fg="dark goldenrod", command=yuzugenerator)>> GUIGI.py
 echo legacy = Button(rightFrame, text="Launch Old UNI-ICO", fg="black", command=bootlegacy)>> GUIGI.py
-echo cemu.pack(side=LEFT, fill=X)>> GUIGI.py
+echo cemu.pack(side=LEFT)>> GUIGI.py
 echo citra.pack(side=RIGHT)>> GUIGI.py
 echo pcsx2.pack(side=LEFT)>> GUIGI.py
 echo pj64.pack(side=RIGHT)>> GUIGI.py
