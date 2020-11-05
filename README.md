@@ -1,10 +1,11 @@
 # GUIGI - UNI-GUI
 A test GUI for UNI-ICO from coded from Batch/Python. Codename: "GUIGI"
 * INSTRUCTIONS FOR USE
-1. Place the GUIGI.bat files in the UNI-ICO Directory
-2. Do NOT rename anything (obviously). It'll fuck stuff up.
-3. Run from the icon that was just created on your desktop.
-4. Report any bugs to me on Discord! 
+1. Install Python 3.7
+2. Place the GUIGI.bat files in the UNI-ICO Directory
+3. Do NOT rename anything (obviously). It'll fuck stuff up.
+4. Run from the icon that was just created on your desktop.
+5. Report any bugs to me on Discord! 
 
 
 * NOTES
@@ -19,9 +20,23 @@ A test GUI for UNI-ICO from coded from Batch/Python. Codename: "GUIGI"
 * FAQ
 
 Q: Why does it come it a bat file?
-A: Guigi is very directory dependant, and to negate this, it is hybrid code. It writes python a python script itself in same directory as the GUIGI.bat files.
+
+A: Guigi is very directory dependant, and to negate this, it is hybrid code. It writes a python script in same directory as the GUIGI.bat files.
 
 Q: Will an EXE release ever come out?
-A: Eventually. Defenitely not using BAT2EXE, because even with SHA's, it comes out as false positive. 
 
+A: Eventually. Defenitely not using BAT2EXE, because even with SHA's, it comes out as false positive, not to mention, it just feels sloppy.
+
+Q: Do you plan to merge this with UNI-ICO considering the "Legacy Mode" option?
+
+A: Yes, but GUIGI will be the framework of *many* projects to come.
+
+Q: Do you accept donations?
+
+A: No, not currently. But soon I am getting Brave certified, and will accept **BAT Only** for donational causes. This FAQ will be updated if that happens.
+
+Q: Is this safe?
+
+A: You made it here and can read my words, right? Then you're probably competent enough to learn or have learned python, and decipher what the code does.
+TL:DR; Yes, but I'm not responsible if anything goes arwy.
 
