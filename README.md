@@ -1,7 +1,7 @@
 # GUIGI - UNI-GUI
 A test GUI for UNI-ICO from coded from Batch/Python. Codename: "GUIGI"
 * INSTRUCTIONS FOR USE
-1. Install Python 3.7
+1. Install Python 3.8(3.9 works too)
 2. Place the GUIGI.bat files in the UNI-ICO Directory
 3. Do NOT rename anything (obviously). It'll fuck stuff up.
 4. Run from the icon that was just created on your desktop.
