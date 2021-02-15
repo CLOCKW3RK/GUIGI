@@ -1,8 +1,10 @@
 # GUIGI - UNI-GUI
-A test GUI for UNI-ICO from coded from Batch/Python. Codename: "GUIGI"
+- A GUI for UNI-ICO from coded from Batch/Python. Codename: "GUIGI" - Win 10
+
 * INSTRUCTIONS FOR USE
+
 1. Install Python 3.8(3.9 works too)
-2. Place the GUIGI.bat files in the UNI-ICO Directory
+2. Place the GUIGI.bat files in the UNI-ICO Directory (Found Here https://github.com/CLOCKW3RK/UNI-ICO)
 3. Do NOT rename anything (obviously). It'll fuck stuff up.
 4. Run from the icon that was just created on your desktop.
 5. Report any bugs to me on Discord! 
