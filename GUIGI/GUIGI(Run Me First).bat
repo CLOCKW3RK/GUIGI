@@ -92,7 +92,7 @@ goto ask
 :ask
 echo Boot prep finished. Create Shortcut on Desktop?
 CHOICE /C 12 /T 3 /D 1 /M "Auto-making in 3 sec... (1=DO IT NOW, ABORT=2)"
-IF %ERRORLEVEL%==1 GOTO short
+IF %ERRORLEVEL%==1 GOTO shortcut
 IF %ERRORLEVEL%==2 GOTO exit
 
 :shortcut
