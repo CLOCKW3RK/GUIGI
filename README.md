@@ -8,7 +8,7 @@
 3. Do NOT rename anything (obviously). It'll fuck stuff up.
 4. Run from the icon that was just created on your desktop.
 5. Report any bugs to me on Discord! 
-
+6. Do NOT run either GUIGI.bat as Administrator, has a bug where it drops GUIGI.py into System32
 
 * NOTES
 
@@ -41,4 +41,8 @@ Q: Is this safe?
 
 A: You made it here and can read my words, right? Then you're probably competent enough to learn or have learned python, and decipher what the code does.
 TL:DR; Yes, but I'm not responsible if anything goes arwy.
+
+Q: Now that the shortcut maker is in py instead of VBS, do you plan to update UNI-ICO too?
+
+A: Much later on down the line. Please keep in mind this is just a side project. Everything from UNI-ICO will be *natively written* in python. Meaning the **enitre code** has to be rewritten for that. Eventually, it'll *all be Python*.
 
