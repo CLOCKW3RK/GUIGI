@@ -96,15 +96,20 @@ IF %ERRORLEVEL%==1 GOTO shortcut
 IF %ERRORLEVEL%==2 GOTO exit
 
 :shortcut
-echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
-echo sLinkFile = "%userprofile%\Desktop\GUIGI.lnk" >> CreateShortcut.vbs
-echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
-echo oLink.TargetPath = "%cd%\GUIGI.py" >> CreateShortcut.vbs
-echo oLink.Description = "GUIGI by CLOCKW3RK" >> CreateShortcut.vbs
-echo oLink.IconLocation = "%cd%\GUIGI.ico" >> CreateShortcut.vbs
-echo oLink.Save >> CreateShortcut.vbs
-cscript CreateShortcut.vbs
-del CreateShortcut.vbs
+echo import win32com.client >> CreateShortcut.py
+echo import pythoncom >> CreateShortcut.py
+echo import os >> CreateShortcut.py
+echo desktop = r'%userprofile%/Desktop' >> CreateShortcut.py
+echo path = os.path.join(desktop, 'GUIGI.lnk') >> CreateShortcut.py
+echo target = r"%cd%\GUIGI.py" >> CreateShortcut.py
+echo icon = r"%cd%\GUIGI.ico" >> CreateShortcut.py
+echo shell = win32com.client.Dispatch("WScript.Shell") >> CreateShortcut.py
+echo shortcut = shell.CreateShortCut(path) >> CreateShortcut.py
+echo shortcut.Targetpath = target >> CreateShortcut.py
+echo shortcut.IconLocation = icon >> CreateShortcut.py
+echo shortcut.save() >> CreateShortcut.py
+python CreateShortcut.py
+del CreateShortcut.py
 goto exit
 
 :exit
